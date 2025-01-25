@@ -1,21 +1,27 @@
 import PageIntro from "@/components/PageIntro";
-import React from "react";
+
 
 const WorkPage = () => {
   return (
     <>
-      <PageIntro
-        eyebrow="Our work"
-        title="Proven solutions for real-world problems."
+      <PageIntro 
+        eyebrow="Our Work" 
+        title="Success Stories and Implementations"
       >
         <p>
-          We believe in efficiency and maximizing our resources to provide the
-          best value to our clients. The primary way we do that is by re-using
-          the same five projects we’ve been developing for the past decade.
+          We've helped organizations of all sizes optimize their software infrastructure 
+          and achieve their digital transformation goals. Here are some of our notable 
+          implementations and success stories.
         </p>
       </PageIntro>
+    
     </>
   );
 };
 
 export default WorkPage;
+
+export const metadata = {
+  title: "Success Stories | Softify Software Solutions",
+  description: "Explore how Softify has helped businesses optimize their software infrastructure with solutions from Microsoft, Adobe, Autodesk, and more.",
+};
