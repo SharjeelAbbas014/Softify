@@ -16,7 +16,7 @@ export default function Home() {
           </h1>
           <p className="mt-6 text-xl text-neutral-600">
             Softify is a leading distributor of premium software solutions from world-renowned brands 
-            including Microsoft, Adobe, Autodesk, Kaspersky, and TrendMicro. We connect businesses 
+            including Microsoft, Adobe, Autodesk, V-Ray, and SketchUp. We connect businesses 
             and individuals with the software they need to succeed.
           </p>
         </FadeIn>

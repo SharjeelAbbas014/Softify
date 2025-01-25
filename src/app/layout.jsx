@@ -6,14 +6,14 @@ export const metadata = {
     template: "Softify",
     default: "Softify - Premium Software Solutions Provider",
   },
-  description: "Softify is your trusted source for genuine software licenses from Microsoft, Adobe, Autodesk, Kaspersky, and TrendMicro. We provide premium software solutions with expert support.",
+  description: "Softify is your trusted source for genuine software licenses from Microsoft, Adobe, Autodesk, V-Ray, and SketchUp. We provide premium software solutions with expert support.",
   keywords: [
     "software distribution",
     "Microsoft licenses",
     "Adobe licenses",
     "Autodesk licenses",
-    "Kaspersky licenses",
-    "TrendMicro licenses",
+    "V-Ray licenses",
+    "SketchUp licenses",
     "software solutions",
     "business software",
     "software licensing",
@@ -21,7 +21,7 @@ export const metadata = {
   ],
   openGraph: {
     title: 'Softify - Premium Software Solutions Provider',
-    description: 'Your trusted partner for genuine software licenses and solutions. Authorized distributor for Microsoft, Adobe, Autodesk, Kaspersky, and TrendMicro.',
+    description: 'Your trusted partner for genuine software licenses and solutions. Authorized distributor for Microsoft, Adobe, Autodesk, V-Ray, and SketchUp.',
     url: 'https://softify.com.pk',
     siteName: 'Softify',
     images: [
@@ -48,7 +48,7 @@ export const metadata = {
   twitter: {
     card: 'summary_large_image',
     title: 'Softify - Premium Software Solutions Provider',
-    description: 'Your trusted partner for genuine software licenses and solutions. Authorized distributor for Microsoft, Adobe, Autodesk, Kaspersky, and TrendMicro.',
+    description: 'Your trusted partner for genuine software licenses and solutions. Authorized distributor for Microsoft, Adobe, Autodesk, V-Ray, and SketchUp.',
     images: ['/og-image.jpg'],
   },
 };

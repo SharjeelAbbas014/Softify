@@ -37,7 +37,7 @@ const Services = () => {
               enterprise agreements, and cloud subscriptions.
             </ListItem>
             <ListItem title="Security Solutions">
-              Complete security software packages from Kaspersky and TrendMicro, 
+              Complete security software packages from V-Ray and SketchUp, 
               protecting your business from evolving cyber threats. Including endpoint 
               protection, email security, and network defense solutions.
             </ListItem>

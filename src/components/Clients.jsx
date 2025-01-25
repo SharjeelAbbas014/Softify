@@ -1,24 +1,24 @@
 import Image from "next/image";
-import logoBrightPath from "../images/clients/bright-path/logo-light.svg";
-import logoFamilyFund from "../images/clients/family-fund/logo-light.svg";
-import logoGreenLife from "../images/clients/green-life/logo-light.svg";
-import logoHomeWork from "../images/clients/home-work/logo-light.svg";
-import logoMailSmirk from "../images/clients/mail-smirk/logo-light.svg";
-import logoNorthAdventures from "../images/clients/north-adventures/logo-light.svg";
-import logoPhobiaLight from "../images/clients/phobia/logo-light.svg";
-import logoUnseal from "../images/clients/unseal/logo-light.svg";
+import logoAdobe from "../images/portfolio/adobe/adobe-icon.svg";
+import logoAutodesk from "../images/portfolio/autodesk/autodesk-icon.svg";
+import logoZoom from "../images/portfolio/zoom/zoom-icon.svg";
+import logoMicrosoft from "../images/portfolio/microsoft/microsoft-icon.svg";
+import logoKahoot from "../images/portfolio/kahoot/kahoot-icon.svg";
+import logoSketch from "../images/portfolio/sketch/sketch-icon.svg";
+import logoAnydesk from "../images/portfolio/anydesk/anydesk-icon.svg";
+import logoVray from "../images/portfolio/vray/vray.svg";
 import Container from "./Container";
 import FadeIn, { FadeInStagger } from "./FadeIn";
 
 const clients = [
-  ["Phobia", logoPhobiaLight],
-  ["Family Fund", logoFamilyFund],
-  ["Unseal", logoUnseal],
-  ["Mail Smirk", logoMailSmirk],
-  ["Home Work", logoHomeWork],
-  ["Green Life", logoGreenLife],
-  ["Bright Path", logoBrightPath],
-  ["North Adventures", logoNorthAdventures],
+  {client: "Adobe", logo: logoAdobe, showTitle: true, link: "https://www.adobe.com/"},
+  {client: "Autodesk", logo: logoAutodesk, showTitle: false, link: "https://www.autodesk.com/"},
+  {client: "Zoom", logo: logoZoom, showTitle: false, link: "https://www.zoom.us/"},
+  {client: "Microsoft", logo: logoMicrosoft, showTitle: false, link: "https://www.microsoft.com/"},
+  {client: "Kahoot", logo: logoKahoot, showTitle: false, link: "https://kahoot.com/"},
+  {client: "Sketch", logo: logoSketch, showTitle: false, link: "https://www.sketch.com/"},
+  {client: "Anydesk", logo: logoAnydesk, showTitle: false, link: "https://anydesk.com/"},
+  {client: "Vray", logo: logoVray, showTitle: false, link: "https://www.chaosgroup.com/vray/"},
 ];
 
 const Clients = () => {
@@ -27,7 +27,7 @@ const Clients = () => {
       <Container>
         <FadeIn className="flex items-center gap-x-8">
           <h2 className="text-center font-display text-sm font-semibold tracking-wider text-white sm:text-left">
-            We have worked with hundreds of amazing people
+            Our Portfolio
           </h2>
           <div className="h-px flex-auto bg-neutral-800" />
         </FadeIn>
@@ -36,11 +36,16 @@ const Clients = () => {
             role="list"
             className="mt-10 grid grid-cols-2 gap-x-8 gap-y-10 lg:grid-cols-4"
           >
-            {clients.map(([client, logo]) => (
+            {clients.map(({client, logo, showTitle, link}) => (
               <li key={client}>
+                <a href={link} target="_blank" rel="noopener noreferrer">
                 <FadeIn>
-                  <Image src={logo} alt={client} unoptimized />
-                </FadeIn>
+                  <div className="flex items-center gap-x-4">
+                    <Image src={logo} alt={client} unoptimized />
+                    {showTitle && <p className="text-2xl font-medium text-white">{client}</p>}
+                    </div>
+                  </FadeIn>
+                </a>
               </li>
             ))}
           </ul>

@@ -17,7 +17,7 @@ const AboutPage = () => {
           <p>
             Softify was established with a vision to simplify the software procurement process
             for businesses of all sizes. As an authorized distributor for industry giants like
-            Microsoft, Adobe, Autodesk, Kaspersky, and TrendMicro, we ensure our clients receive
+            Microsoft, Adobe, Autodesk, V-Ray, and SketchUp, we ensure our clients receive
             genuine software solutions at competitive prices.
           </p>
           <p>
