@@ -4,7 +4,52 @@ import "./globals.css";
 export const metadata = {
   title: {
     template: "Softify",
-    default: "Softify",
+    default: "Softify - Premium Software Solutions Provider",
+  },
+  description: "Softify is your trusted source for genuine software licenses from Microsoft, Adobe, Autodesk, Kaspersky, and TrendMicro. We provide premium software solutions with expert support.",
+  keywords: [
+    "software distribution",
+    "Microsoft licenses",
+    "Adobe licenses",
+    "Autodesk licenses",
+    "Kaspersky licenses",
+    "TrendMicro licenses",
+    "software solutions",
+    "business software",
+    "software licensing",
+    "enterprise software"
+  ],
+  openGraph: {
+    title: 'Softify - Premium Software Solutions Provider',
+    description: 'Your trusted partner for genuine software licenses and solutions. Authorized distributor for Microsoft, Adobe, Autodesk, Kaspersky, and TrendMicro.',
+    url: 'https://softify.com.pk',
+    siteName: 'Softify',
+    images: [
+      {
+        url: '/og-image.jpg', // You'll need to add this image to your public folder
+        width: 1200,
+        height: 630,
+      },
+    ],
+    locale: 'en_US',
+    type: 'website',
+  },
+  robots: {
+    index: true,
+    follow: true,
+    googleBot: {
+      index: true,
+      follow: true,
+      'max-video-preview': -1,
+      'max-image-preview': 'large',
+      'max-snippet': -1,
+    },
+  },
+  twitter: {
+    card: 'summary_large_image',
+    title: 'Softify - Premium Software Solutions Provider',
+    description: 'Your trusted partner for genuine software licenses and solutions. Authorized distributor for Microsoft, Adobe, Autodesk, Kaspersky, and TrendMicro.',
+    images: ['/og-image.jpg'],
   },
 };
 

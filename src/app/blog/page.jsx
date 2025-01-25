@@ -14,3 +14,8 @@ const BlogPage = () => {
 };
 
 export default BlogPage;
+
+export const metadata = {
+  title: "Software News & Updates | Softify",
+  description: "Stay updated with the latest software releases, licensing news, and industry updates from Microsoft, Adobe, Autodesk, Kaspersky, and TrendMicro.",
+};

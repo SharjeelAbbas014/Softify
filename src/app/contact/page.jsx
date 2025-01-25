@@ -6,7 +6,7 @@ import PageIntro from "@/components/PageIntro";
 const ContactPage = () => {
   return (
     <>
-      <PageIntro eyebrow="Contact us" title="Let’s work together">
+      <PageIntro eyebrow="Contact us" title="Let's work together">
         <p>We can not wait to hear from you.</p>
       </PageIntro>
       <Container className="mt-24 sm:mt-32 lg:mt-40">
@@ -20,3 +20,8 @@ const ContactPage = () => {
 };
 
 export default ContactPage;
+
+export const metadata = {
+  title: "Contact Softify | Software Licensing Experts",
+  description: "Get in touch with Softify for all your software licensing needs. We provide expert guidance and support for Microsoft, Adobe, Autodesk, and more.",
+};
