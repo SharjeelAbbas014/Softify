@@ -1,9 +1,8 @@
 export function constructMetadata({
   title = "Softify ",
-  description = "Softify is an open-source website.",
+  description = "Your Trusted Source for Premium Software Solutions",
   image = "/agency.PNG",
   icons = "/favicon.ico",
-  noIndex = false,
 }) {
   return {
     title,
@@ -25,13 +24,7 @@ export function constructMetadata({
       creator: "@KING_IN_JUNGLE",
     },
     icons,
-    metadataBase: new URL("https://agency-website-abdullah.vercel.app/"),
+    metadataBase: new URL("https://softify.com.pk/"),
     themeColor: "#FFF",
-    ...(noIndex && {
-      robots: {
-        index: false,
-        follow: false,
-      },
-    }),
   };
 }
