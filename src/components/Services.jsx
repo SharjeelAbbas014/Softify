@@ -11,12 +11,12 @@ const Services = () => {
     <>
       <SectionIntro
         eyebrow="Services"
-        title="We help you identify, explore and respond to new opportunities."
+        title="Comprehensive Software Solutions for Your Business"
         className="mt-24 sm:mt-32 lg:mt-40"
       >
         <p>
-          As long as those opportunities involve giving us money to re-purpose
-          old projects — we can come up with an endless number of those.
+          We provide end-to-end software licensing solutions, from consultation 
+          to deployment and ongoing support, ensuring your business has the tools it needs to succeed.
         </p>
       </SectionIntro>
       <Container className="mt-16">
@@ -30,26 +30,26 @@ const Services = () => {
               />
             </FadeIn>
           </div>
-          {/* List item */}
           <List className="mt-16 lg:mt-0 lg:w-1/2 lg:min-w-[33rem] lg:pl-4">
-            <ListItem title="Web development">
-              We specialise in crafting beautiful, high quality marketing pages.
-              The rest of the website will be a shell that uses lorem ipsum
-              everywhere.
+            <ListItem title="Enterprise Software Licensing">
+              Comprehensive licensing solutions for Microsoft, Adobe, and Autodesk products, 
+              tailored to your organization's size and needs. We handle volume licensing, 
+              enterprise agreements, and cloud subscriptions.
             </ListItem>
-            <ListItem title="Application development">
-              We have a team of skilled developers who are experts in the latest
-              app frameworks, like Angular 1 and Google Web Toolkit.
+            <ListItem title="Security Solutions">
+              Complete security software packages from Kaspersky and TrendMicro, 
+              protecting your business from evolving cyber threats. Including endpoint 
+              protection, email security, and network defense solutions.
             </ListItem>
-            <ListItem title="E-commerce">
-              We are at the forefront of modern e-commerce development. Which
-              mainly means adding your logo to the Shopify store template we’ve
-              used for the past six years.
+            <ListItem title="Cloud Services">
+              Expert guidance on cloud licensing and subscriptions, including Microsoft 365, 
+              Adobe Creative Cloud, and Autodesk Cloud. We help optimize your cloud 
+              investments and manage subscriptions effectively.
             </ListItem>
-            <ListItem title="Custom content management">
-              At Studio we understand the importance of having a robust and
-              customised CMS. That’s why we run all of our client projects out
-              of a single, enormous Joomla instance.
+            <ListItem title="License Management">
+              Comprehensive license management services including audit support, 
+              compliance monitoring, renewal management, and optimization recommendations 
+              to ensure maximum value from your software investments.
             </ListItem>
           </List>
         </div>
