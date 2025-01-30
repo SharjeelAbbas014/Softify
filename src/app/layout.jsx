@@ -59,6 +59,7 @@ export default function Layout({ children }) {
       lang="en"
       className="h-full bg-neutral-950 text-base antialiased text-neutral-100"
     >
+      <head><meta name="google-site-verification" content="qgIumG8hzTnY19SdOhTPdRH9LdlMoDA37-mFobILLGQ" /></head>
       <body className="flex min-h-full flex-col">
         <RootLayout>{children}</RootLayout>
       </body>
